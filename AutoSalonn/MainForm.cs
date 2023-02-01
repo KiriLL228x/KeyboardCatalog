@@ -30,6 +30,15 @@ namespace AutoSalonn
             car.Show();
         }
 
-     
+        private void filter_button_Click(object sender, EventArgs e)
+        {
+            filter filtr = new filter();
+            filtr.ShowDialog();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
