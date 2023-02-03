@@ -23,7 +23,7 @@ namespace AutoSalonn
             hf.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
             CarForm car = new CarForm(btn.Text);
@@ -36,9 +36,5 @@ namespace AutoSalonn
             filtr.ShowDialog();
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
