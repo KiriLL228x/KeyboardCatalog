@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCarForm.Designer.cs">
+      <DependentUpon>AddCarForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CarForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CarForm.Designer.cs">
       <DependentUpon>CarForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="filter.cs">
+    <Compile Include="FiltrForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="filter.Designer.cs">
-      <DependentUpon>filter.cs</DependentUpon>
+    <Compile Include="FiltrForm.Designer.cs">
+      <DependentUpon>FiltrForm.cs</DependentUpon>
     </Compile>
     <Compile Include="HelpForm.cs">
       <SubType>Form</SubType>
@@ -72,11 +78,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectedForm.Designer.cs">
+      <DependentUpon>SelectedForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddCarForm.resx">
+      <DependentUpon>AddCarForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CarForm.resx">
       <DependentUpon>CarForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="filter.resx">
-      <DependentUpon>filter.cs</DependentUpon>
+    <EmbeddedResource Include="FiltrForm.resx">
+      <DependentUpon>FiltrForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HelpForm.resx">
       <DependentUpon>HelpForm.cs</DependentUpon>
@@ -94,6 +109,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SelectedForm.resx">
+      <DependentUpon>SelectedForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -108,13 +126,31 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\AE86.jpg" />
+    <None Include="Pictures\Toyota AE86.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\CIVIC TYPE R.jpg" />
+    <None Include="Pictures\Toyota GT86.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\GTR32.jpg" />
+    <None Include="Pictures\Honda Civic Type R.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Mitsubishi Lancer EVO6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Mitsubishi Lancer EVO8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Subaru WRX STi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nissan Skyline GTR32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nissan Skyline GTR34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\W8tnZ2g.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

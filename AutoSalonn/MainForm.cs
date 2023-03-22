@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,18 +24,40 @@ namespace AutoSalonn
             hf.ShowDialog();
         }
 
-        public void button1_Click(object sender, EventArgs e)
+        private void CarClick(object sender, EventArgs e)
         {
-            Button btn = (Button)sender;
-            CarForm car = new CarForm(btn.Text);
-            car.Show();
+            FiltrForm.carClick(sender, e);
         }
 
-        private void filter_button_Click(object sender, EventArgs e)
+        private void FiltrButton_Click(object sender, EventArgs e)
         {
-            filter filtr = new filter();
+            FiltrForm filtr = new FiltrForm();
             filtr.ShowDialog();
         }
 
+        private void SelectedButton_Click(object sender, EventArgs e)
+        {
+            SelectedForm select = new SelectedForm();
+            select.Show();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            string[] strs = File.ReadAllLines("cars.txt");
+            
+            foreach (string str in strs)
+            {
+                string[] parts = str.Split(new string[] {", "}, StringSplitOptions.None);
+                Car car = new Car(parts[0], parts[1], parts[2], Convert.ToInt32(parts[3]));
+                FiltrForm.cars_list.Add(car);
+            }
+
+        }
+
+        private void добавитьОбъектToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddCarForm addCar = new AddCarForm();
+            addCar.ShowDialog();
+        }
     }
 }

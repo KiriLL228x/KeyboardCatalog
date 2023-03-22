@@ -11,30 +11,33 @@ C:\Users\root\source\repos\AutoSalonn\AutoSalonn\obj\Debug\AutoSalonn.exe
 C:\Users\root\source\repos\AutoSalonn\AutoSalonn\obj\Debug\AutoSalonn.pdb
 C:\Users\root\source\repos\AutoSalonn\AutoSalonn\obj\Debug\AutoSalonn.HelpForm.resources
 C:\Users\root\source\repos\AutoSalonn\AutoSalonn\obj\Debug\AutoSalonn.CarForm.resources
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\bin\Debug\AutoSalonn.exe.config
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\bin\Debug\AutoSalonn.exe
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\bin\Debug\AutoSalonn.pdb
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.AssemblyReference.cache
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.SuggestedBindingRedirects.cache
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.CarForm.resources
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.HelpForm.resources
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.MainForm.resources
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.Properties.Resources.resources
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.GenerateResource.cache
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.CoreCompileInputs.cache
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.exe
-C:\Users\kiril\source\repos\Projecr_AutoSalon-main\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.pdb
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\bin\Debug\AutoSalonn.exe.config
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\bin\Debug\AutoSalonn.exe
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\bin\Debug\AutoSalonn.pdb
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.AssemblyReference.cache
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.SuggestedBindingRedirects.cache
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.CarForm.resources
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.HelpForm.resources
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.MainForm.resources
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.Properties.Resources.resources
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.GenerateResource.cache
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.CoreCompileInputs.cache
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.exe
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.pdb
-D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.filter.resources
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\bin\Debug\AutoSalonn.exe.config
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\bin\Debug\AutoSalonn.exe
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\bin\Debug\AutoSalonn.pdb
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.csproj.AssemblyReference.cache
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.csproj.SuggestedBindingRedirects.cache
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.CarForm.resources
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.HelpForm.resources
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.MainForm.resources
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.Properties.Resources.resources
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.csproj.GenerateResource.cache
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.csproj.CoreCompileInputs.cache
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.exe
+C:\Users\root\Source\Repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.pdb
+C:\Users\root\source\repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.FiltrForm.resources
+C:\Users\root\source\repos\Projecr_AutoSalon\AutoSalonn\obj\Debug\AutoSalonn.SelectedForm.resources
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\bin\Debug\AutoSalonn.exe.config
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\bin\Debug\AutoSalonn.exe
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\bin\Debug\AutoSalonn.pdb
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.AssemblyReference.cache
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.SuggestedBindingRedirects.cache
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.CarForm.resources
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.FiltrForm.resources
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.HelpForm.resources
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.MainForm.resources
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.Properties.Resources.resources
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.SelectedForm.resources
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.GenerateResource.cache
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.CoreCompileInputs.cache
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.exe
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.pdb
