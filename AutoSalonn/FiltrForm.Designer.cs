@@ -33,8 +33,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.kppComboBox = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.NameComboBox = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.kuzovComboBox = new System.Windows.Forms.ComboBox();
+            this.NametextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // FindButton
@@ -79,7 +79,7 @@
             this.kppComboBox.Items.AddRange(new object[] {
             "мкпп",
             "акпп"});
-            this.kppComboBox.Location = new System.Drawing.Point(87, 48);
+            this.kppComboBox.Location = new System.Drawing.Point(87, 44);
             this.kppComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.kppComboBox.Name = "kppComboBox";
             this.kppComboBox.Size = new System.Drawing.Size(144, 28);
@@ -96,37 +96,30 @@
             this.label4.TabIndex = 26;
             this.label4.Text = "Модель";
             // 
-            // NameComboBox
+            // kuzovComboBox
             // 
-            this.NameComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
-            this.NameComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NameComboBox.FormattingEnabled = true;
-            this.NameComboBox.Items.AddRange(new object[] {
-            "мкпп",
-            "акпп"});
-            this.NameComboBox.Location = new System.Drawing.Point(87, 9);
-            this.NameComboBox.Margin = new System.Windows.Forms.Padding(2);
-            this.NameComboBox.Name = "NameComboBox";
-            this.NameComboBox.Size = new System.Drawing.Size(144, 28);
-            this.NameComboBox.TabIndex = 27;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Седан ",
+            this.kuzovComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.kuzovComboBox.FormattingEnabled = true;
+            this.kuzovComboBox.Items.AddRange(new object[] {
+            "Седан",
             "Универсал ",
-            "Хэтчбек.",
+            "Хэтчбек",
             "Лифтбек",
             "Купе",
             "Лимузин",
             "Кабриолет"});
-            this.comboBox1.Location = new System.Drawing.Point(339, 6);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(144, 28);
-            this.comboBox1.TabIndex = 28;
+            this.kuzovComboBox.Location = new System.Drawing.Point(339, 6);
+            this.kuzovComboBox.Margin = new System.Windows.Forms.Padding(2);
+            this.kuzovComboBox.Name = "kuzovComboBox";
+            this.kuzovComboBox.Size = new System.Drawing.Size(144, 28);
+            this.kuzovComboBox.TabIndex = 28;
+            // 
+            // NametextBox
+            // 
+            this.NametextBox.Location = new System.Drawing.Point(87, 11);
+            this.NametextBox.Name = "NametextBox";
+            this.NametextBox.Size = new System.Drawing.Size(141, 20);
+            this.NametextBox.TabIndex = 29;
             // 
             // FiltrForm
             // 
@@ -134,8 +127,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(663, 476);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.NameComboBox);
+            this.Controls.Add(this.NametextBox);
+            this.Controls.Add(this.kuzovComboBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.kppComboBox);
             this.Controls.Add(this.label2);
@@ -156,7 +149,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox kppComboBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox NameComboBox;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox kuzovComboBox;
+        private System.Windows.Forms.TextBox NametextBox;
     }
 }

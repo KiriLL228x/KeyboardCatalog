@@ -84,8 +84,22 @@ namespace AutoSalonn
                 cars_list[i].btn.Visible = true;
                 cars_list[i].pb.Visible = true;
 
-                if (NameComboBox.Text != "" &&
-                    NameComboBox.Text != cars_list[i].name)
+                if (NametextBox.Text != "" &&
+                    NametextBox.Text != cars_list[i].name)
+                {
+                    cars_list[i].btn.Visible = false;
+                    cars_list[i].pb.Visible = false;
+                }
+
+                if (kppComboBox.Text != "" &&
+                   kppComboBox.Text != cars_list[i].kpp)
+                {
+                    cars_list[i].btn.Visible = false;
+                    cars_list[i].pb.Visible = false;
+                }
+
+                if (kuzovComboBox.Text != "" &&
+                    kuzovComboBox.Text != cars_list[i].kuzov)
                 {
                     cars_list[i].btn.Visible = false;
                     cars_list[i].pb.Visible = false;

@@ -1,10 +1,8 @@
-Toyota AE86, Седан, мкпп, 500000
-Toyota GT86, Универсал, мкпп, 500000
-Honda Civic Type R, Универсал, мкпп, 500000
-Mitsubishi Lancer EVO6, Купе, мкпп, 1000000
-Mitsubishi Lancer EVO8, Купе, акпп, 1000000
+Toyota AE86, Купе, мкпп, 500000
+Toyota GT86, Купе, мкпп, 500000
+Honda Civic Type R, Хэтчбек, мкпп, 500000
+Mitsubishi Lancer EVO6, Седан, мкпп, 1000000
+Mitsubishi Lancer EVO8, Седан, мкпп, 1000000
 Subaru WRX STi, Купе, мкпп, 2000000
-Мерседес SL63, Кабриолет, акпп, 3000000
-Nissan Skyline GTR32, Универсал, акпп, 3000000
-Nissan Skyline GTR34, Седан, мкпп, 500000
-Nissan Skyline, Седан, мкпп, 300000
+Nissan Skyline GTR32, Купе, мкпп, 3000000
+Nissan Skyline GTR34, Купе, мкпп, 500000

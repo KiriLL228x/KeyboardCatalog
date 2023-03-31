@@ -90,5 +90,9 @@ namespace AutoSalonn
             ReDraw();
         }
 
+        private void SelectedForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

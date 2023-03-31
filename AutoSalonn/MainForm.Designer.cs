@@ -34,6 +34,7 @@
             this.SelectedButton = new System.Windows.Forms.Button();
             this.AddcontextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.добавитьОбъектToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.удалитьОбъектToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AddcontextMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,9 +83,10 @@
             // AddcontextMenu
             // 
             this.AddcontextMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.добавитьОбъектToolStripMenuItem});
+            this.добавитьОбъектToolStripMenuItem,
+            this.удалитьОбъектToolStripMenuItem});
             this.AddcontextMenu.Name = "AddcontextMenu";
-            this.AddcontextMenu.Size = new System.Drawing.Size(181, 48);
+            this.AddcontextMenu.Size = new System.Drawing.Size(181, 70);
             // 
             // добавитьОбъектToolStripMenuItem
             // 
@@ -92,6 +94,13 @@
             this.добавитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.добавитьОбъектToolStripMenuItem.Text = "добавить объект";
             this.добавитьОбъектToolStripMenuItem.Click += new System.EventHandler(this.добавитьОбъектToolStripMenuItem_Click);
+            // 
+            // удалитьОбъектToolStripMenuItem
+            // 
+            this.удалитьОбъектToolStripMenuItem.Name = "удалитьОбъектToolStripMenuItem";
+            this.удалитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.удалитьОбъектToolStripMenuItem.Text = "удалить объект";
+            this.удалитьОбъектToolStripMenuItem.Click += new System.EventHandler(this.удалитьОбъектToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -120,6 +129,7 @@
         private System.Windows.Forms.Button SelectedButton;
         private System.Windows.Forms.ContextMenuStrip AddcontextMenu;
         private System.Windows.Forms.ToolStripMenuItem добавитьОбъектToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem удалитьОбъектToolStripMenuItem;
     }
 }
 

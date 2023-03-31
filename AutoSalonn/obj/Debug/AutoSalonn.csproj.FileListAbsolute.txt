@@ -41,3 +41,5 @@ C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.cs
 C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.CoreCompileInputs.cache
 C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.exe
 C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.pdb
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.AddCarForm.resources
+C:\Users\kiril\Desktop\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.DelCarForm.resources

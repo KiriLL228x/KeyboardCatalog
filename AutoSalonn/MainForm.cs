@@ -44,20 +44,32 @@ namespace AutoSalonn
         private void MainForm_Load(object sender, EventArgs e)
         {
             string[] strs = File.ReadAllLines("cars.txt");
-            
+
             foreach (string str in strs)
             {
-                string[] parts = str.Split(new string[] {", "}, StringSplitOptions.None);
+                string[] parts = str.Split(new string[] { ", " }, StringSplitOptions.None);
                 Car car = new Car(parts[0], parts[1], parts[2], Convert.ToInt32(parts[3]));
                 FiltrForm.cars_list.Add(car);
             }
-
         }
-
         private void добавитьОбъектToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AddCarForm addCar = new AddCarForm();
+        AddCarForm addCar = new AddCarForm();
+                    addCar.ShowDialog();
+
+                    MainForm_Load(null, null);
+        }
+
+        private void удалитьОбъектToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DelCarForm addCar = new DelCarForm();
             addCar.ShowDialog();
+
+            MainForm_Load(null, null);
         }
     }
+
+       
+    
 }
+

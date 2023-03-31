@@ -36,7 +36,11 @@
             this.NameTB = new System.Windows.Forms.TextBox();
             this.SaveBtn = new System.Windows.Forms.Button();
             this.KppCB = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.KuzovCB = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // NameLB
@@ -91,7 +95,7 @@
             // 
             // SaveBtn
             // 
-            this.SaveBtn.Location = new System.Drawing.Point(12, 132);
+            this.SaveBtn.Location = new System.Drawing.Point(12, 242);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(414, 23);
             this.SaveBtn.TabIndex = 8;
@@ -111,11 +115,11 @@
             this.KppCB.Size = new System.Drawing.Size(196, 21);
             this.KppCB.TabIndex = 9;
             // 
-            // comboBox1
+            // KuzovCB
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.KuzovCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.KuzovCB.FormattingEnabled = true;
+            this.KuzovCB.Items.AddRange(new object[] {
             "Седан ",
             "Универсал ",
             "Хэтчбек.",
@@ -123,17 +127,41 @@
             "Купе",
             "Лимузин",
             "Кабриолет"});
-            this.comboBox1.Location = new System.Drawing.Point(148, 61);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(196, 21);
-            this.comboBox1.TabIndex = 10;
+            this.KuzovCB.Location = new System.Drawing.Point(148, 61);
+            this.KuzovCB.Name = "KuzovCB";
+            this.KuzovCB.Size = new System.Drawing.Size(196, 21);
+            this.KuzovCB.TabIndex = 10;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 155);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(130, 33);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Загрузить картинку";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(148, 132);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(204, 104);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // AddCarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(443, 450);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.KuzovCB);
             this.Controls.Add(this.KppCB);
             this.Controls.Add(this.SaveBtn);
             this.Controls.Add(this.NameTB);
@@ -144,6 +172,7 @@
             this.Controls.Add(this.NameLB);
             this.Name = "AddCarForm";
             this.Text = "AddCarForm";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,6 +188,9 @@
         private System.Windows.Forms.TextBox NameTB;
         private System.Windows.Forms.Button SaveBtn;
         private System.Windows.Forms.ComboBox KppCB;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox KuzovCB;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
