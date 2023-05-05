@@ -40,6 +40,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Inftb = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,7 +97,7 @@
             // 
             // SaveBtn
             // 
-            this.SaveBtn.Location = new System.Drawing.Point(12, 242);
+            this.SaveBtn.Location = new System.Drawing.Point(12, 403);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(414, 23);
             this.SaveBtn.TabIndex = 8;
@@ -154,11 +156,31 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(25, 258);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(108, 13);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Добавить описание";
+            // 
+            // Inftb
+            // 
+            this.Inftb.Location = new System.Drawing.Point(139, 258);
+            this.Inftb.Multiline = true;
+            this.Inftb.Name = "Inftb";
+            this.Inftb.ShortcutsEnabled = false;
+            this.Inftb.Size = new System.Drawing.Size(264, 139);
+            this.Inftb.TabIndex = 14;
+            // 
             // AddCarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(443, 450);
+            this.Controls.Add(this.Inftb);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.KuzovCB);
@@ -192,5 +214,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Label label1;
+        internal System.Windows.Forms.TextBox Inftb;
     }
 }

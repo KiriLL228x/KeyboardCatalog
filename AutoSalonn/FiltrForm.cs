@@ -31,7 +31,7 @@ namespace AutoSalonn
             pb = new PictureBox();
             try
             {
-                pb.Load("../../Pictures/" + name + ".jpg");             
+                pb.Load("../../Pictures/" + name + ".jpg");
             }
             catch (Exception) { }
         }
@@ -46,28 +46,28 @@ namespace AutoSalonn
             InitializeComponent();
 
             int x = 10;
-            int y = 150;
+            int y = 10;
 
-            for (int i=0; i< cars_list.Count; i++)
+            for (int i = 0; i < cars_list.Count; i++)
             {
                 cars_list[i].btn.Font = new Font("Microsoft Sans Serif", 12F);
                 cars_list[i].btn.Location = new Point(x, y);
                 cars_list[i].btn.Size = new Size(200, 30);
                 cars_list[i].btn.Click += new EventHandler(carClick);
-                Controls.Add(cars_list[i].btn);
+                CarsPanel.Controls.Add(cars_list[i].btn);
 
                 cars_list[i].pb.Location = new Point(x, y);
                 cars_list[i].pb.Size = new Size(200, 200);
                 cars_list[i].pb.SizeMode = PictureBoxSizeMode.Zoom;
-                Controls.Add(cars_list[i].pb);
+                CarsPanel.Controls.Add(cars_list[i].pb);
 
                 x += 210;
-                if(x > 620)
+                if (x + 200 > CarsPanel.Width)
                 {
                     x = 10;
                     y += 210;
                 }
-            } 
+            }
         }
 
         private void FiltrForm_Load(object sender, EventArgs e)
@@ -78,28 +78,32 @@ namespace AutoSalonn
         private void FindButton_Click(object sender, EventArgs e)
         {
             int x = 10;
-            int y = 150;
-            for (int i=0; i<cars_list.Count; i++)
+            int y = 10;
+            for (int i = 0; i < cars_list.Count; i++)
             {
                 cars_list[i].btn.Visible = true;
                 cars_list[i].pb.Visible = true;
 
-                if (NametextBox.Text != "" &&
-                    NametextBox.Text != cars_list[i].name)
+                if (KuzovCheckedListBox.CheckedItems.Count > 0 &&
+                    !KuzovCheckedListBox.CheckedItems.Contains(cars_list[i].kuzov))
                 {
                     cars_list[i].btn.Visible = false;
                     cars_list[i].pb.Visible = false;
                 }
-
+                if (NameTextBox.Text != "" &&
+                    !cars_list[i].name.Contains(NameTextBox.Text))
+                {
+                    cars_list[i].btn.Visible = false;
+                    cars_list[i].pb.Visible = false;
+                }
                 if (kppComboBox.Text != "" &&
-                   kppComboBox.Text != cars_list[i].kpp)
+                    kppComboBox.Text != cars_list[i].kpp)
                 {
                     cars_list[i].btn.Visible = false;
                     cars_list[i].pb.Visible = false;
                 }
-
-                if (kuzovComboBox.Text != "" &&
-                    kuzovComboBox.Text != cars_list[i].kuzov)
+                if (priceTextBox.Text != "" &&
+                    Convert.ToInt32(priceTextBox.Text) < cars_list[i].price)
                 {
                     cars_list[i].btn.Visible = false;
                     cars_list[i].pb.Visible = false;
@@ -107,16 +111,16 @@ namespace AutoSalonn
 
                 if (cars_list[i].btn.Visible)
                 {
-                    cars_list[i].btn.Location = new Point(x, y);                    
+                    cars_list[i].btn.Location = new Point(x, y);
                     cars_list[i].pb.Location = new Point(x, y);
 
                     x += 210;
-                    if (x > 620)
+                    if (x + 200 > CarsPanel.Width)
                     {
                         x = 10;
                         y += 210;
                     }
-                }                
+                }
             }
         }
 
@@ -132,10 +136,24 @@ namespace AutoSalonn
             }
         }
 
-       
+        private void NameTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
 
-       
+        }
 
-        
+        private void priceTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void CarsPanel_Resize(object sender, EventArgs e)
+        {
+            FindButton_Click(null, null);
+        }
+
+        private void HideButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -94,5 +94,11 @@ namespace AutoSalonn
         {
 
         }
+
+        private void SendButton_Click(object sender, EventArgs e)
+        {
+            SendMailForm mailForm = new SendMailForm();
+            mailForm.ShowDialog();
+        }
     }
 }

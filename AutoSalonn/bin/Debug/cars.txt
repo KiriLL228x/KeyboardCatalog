@@ -6,3 +6,4 @@ Mitsubishi Lancer EVO8, Седан, мкпп, 1000000
 Subaru WRX STi, Купе, мкпп, 2000000
 Nissan Skyline GTR32, Купе, мкпп, 3000000
 Nissan Skyline GTR34, Купе, мкпп, 500000
+adaw, Седан , мкпп, 1234

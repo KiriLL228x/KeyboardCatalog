@@ -33,17 +33,22 @@ namespace AutoSalonn
                 return;
             }
 
-            File.AppendAllText("cars.txt", Environment.NewLine +
+            File.AppendAllText("cars.txt",
                 NameTB.Text + ", " +
                 KuzovCB.Text + ", " +
                 KppCB.Text + ", " +
-                PriceTB.Text);
+                PriceTB.Text +
+                Environment.NewLine);
            
 
             if (FileNme != "")
             {
                 File.Copy(FileNme, "../../Pictures/" + NameTB + ".jpg");
             }
+
+            File.AppendAllText("../../Pictures/" + NameTB + ".txt",Inftb.Text);
+                
+
             MessageBox.Show("Сохранено");
             Close();
         }
@@ -59,5 +64,7 @@ namespace AutoSalonn
             pictureBox1.Load(FileNme);
             }
         }
+
+       
     }
 }

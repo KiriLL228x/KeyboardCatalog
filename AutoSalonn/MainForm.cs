@@ -43,6 +43,7 @@ namespace AutoSalonn
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            FiltrForm.cars_list.Clear();
             string[] strs = File.ReadAllLines("cars.txt");
 
             foreach (string str in strs)
@@ -52,20 +53,69 @@ namespace AutoSalonn
                 FiltrForm.cars_list.Add(car);
             }
         }
+
         private void добавитьОбъектToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        AddCarForm addCar = new AddCarForm();
-                    addCar.ShowDialog();
+            if (AuthForm.isAdmin)
+            {
+                AddCarForm addCar = new AddCarForm();
+                addCar.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Изменения может производить только админитсратор");
+            }
 
-                    MainForm_Load(null, null);
+            MainForm_Load(null, null);
         }
 
         private void удалитьОбъектToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DelCarForm addCar = new DelCarForm();
-            addCar.ShowDialog();
+            if (AuthForm.isAdmin)
+            {
+                DelCarForm delCar = new DelCarForm();
+                delCar.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Изменения может производить только админитсратор");
+            }
 
             MainForm_Load(null, null);
+        }
+
+
+
+
+        private void input_Click(object sender, EventArgs e)
+        {
+            if (AuthForm.name == "")
+            {
+                AuthForm auth = new AuthForm();
+                auth.ShowDialog();
+            }
+            else
+            {
+                AuthForm.name = "";
+            }
+
+            if (AuthForm.name == "")
+            {
+                label1.Text = "";
+                input.Text = "Войти";
+            }
+            else
+            {
+                label1.Text = "Вы авторизовались как  " + AuthForm.name + " " + AuthForm.secname;
+                input.Text = "Выйти";
+            }
+
+        }
+
+        private void FeedBackButton_Click(object sender, EventArgs e)
+        {
+            FeedBackForm feedBack = new FeedBackForm();
+            feedBack.ShowDialog();
         }
     }
 

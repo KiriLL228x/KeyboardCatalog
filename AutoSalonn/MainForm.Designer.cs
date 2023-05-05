@@ -35,6 +35,9 @@
             this.AddcontextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.добавитьОбъектToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.удалитьОбъектToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.input = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.feedbackbtn = new System.Windows.Forms.Button();
             this.AddcontextMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,21 +89,53 @@
             this.добавитьОбъектToolStripMenuItem,
             this.удалитьОбъектToolStripMenuItem});
             this.AddcontextMenu.Name = "AddcontextMenu";
-            this.AddcontextMenu.Size = new System.Drawing.Size(181, 70);
+            this.AddcontextMenu.Size = new System.Drawing.Size(166, 48);
             // 
             // добавитьОбъектToolStripMenuItem
             // 
             this.добавитьОбъектToolStripMenuItem.Name = "добавитьОбъектToolStripMenuItem";
-            this.добавитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.добавитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.добавитьОбъектToolStripMenuItem.Text = "добавить объект";
             this.добавитьОбъектToolStripMenuItem.Click += new System.EventHandler(this.добавитьОбъектToolStripMenuItem_Click);
             // 
             // удалитьОбъектToolStripMenuItem
             // 
             this.удалитьОбъектToolStripMenuItem.Name = "удалитьОбъектToolStripMenuItem";
-            this.удалитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.удалитьОбъектToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.удалитьОбъектToolStripMenuItem.Text = "удалить объект";
             this.удалитьОбъектToolStripMenuItem.Click += new System.EventHandler(this.удалитьОбъектToolStripMenuItem_Click);
+            // 
+            // input
+            // 
+            this.input.Location = new System.Drawing.Point(370, 568);
+            this.input.Name = "input";
+            this.input.Size = new System.Drawing.Size(121, 38);
+            this.input.TabIndex = 25;
+            this.input.Text = "Войти";
+            this.input.UseVisualStyleBackColor = true;
+            this.input.Click += new System.EventHandler(this.input_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(497, 581);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.TabIndex = 26;
+            // 
+            // feedbackbtn
+            // 
+            this.feedbackbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.feedbackbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.feedbackbtn.ForeColor = System.Drawing.SystemColors.Info;
+            this.feedbackbtn.Location = new System.Drawing.Point(25, 312);
+            this.feedbackbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.feedbackbtn.Name = "feedbackbtn";
+            this.feedbackbtn.Size = new System.Drawing.Size(123, 38);
+            this.feedbackbtn.TabIndex = 27;
+            this.feedbackbtn.Text = "Тех. под.";
+            this.feedbackbtn.UseVisualStyleBackColor = false;
+            this.feedbackbtn.Click += new System.EventHandler(this.FeedBackButton_Click);
             // 
             // MainForm
             // 
@@ -110,6 +145,9 @@
             this.BackgroundImage = global::AutoSalonn.Properties.Resources.W8tnZ2g;
             this.ClientSize = new System.Drawing.Size(861, 609);
             this.ContextMenuStrip = this.AddcontextMenu;
+            this.Controls.Add(this.feedbackbtn);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.input);
             this.Controls.Add(this.SelectedButton);
             this.Controls.Add(this.FiltrButton);
             this.Controls.Add(this.HelpButton);
@@ -120,6 +158,7 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.AddcontextMenu.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -130,6 +169,9 @@
         private System.Windows.Forms.ContextMenuStrip AddcontextMenu;
         private System.Windows.Forms.ToolStripMenuItem добавитьОбъектToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem удалитьОбъектToolStripMenuItem;
+        private System.Windows.Forms.Button input;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button feedbackbtn;
     }
 }
 
