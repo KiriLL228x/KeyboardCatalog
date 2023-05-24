@@ -11,20 +11,24 @@ using System.Windows.Forms;
 
 namespace AutoSalonn
 {
-    public struct Car
+    public struct Mouse
     {
         public string name;
-        public string kuzov;
-        public string kpp;
+        public string ves;
+        public string sens;
+        public string G;
+        public string form;
         public int price;
         public Button btn;
         public PictureBox pb;
 
-        public Car(string _name, string _kuzov, string _kpp, int _price)
+        public Mouse(string _name, string _ves, string _sens, string _G, string _form, int _price)
         {
             name = _name;
-            kuzov = _kuzov;
-            kpp = _kpp;
+            ves = _ves;
+            sens = _sens;
+            G = _G;
+            form = _form;
             price = _price;
             btn = new Button();
             btn.Text = name;
@@ -39,7 +43,7 @@ namespace AutoSalonn
 
     public partial class FiltrForm : Form
     {
-        public static List<Car> cars_list = new List<Car>();
+        public static List<Mouse> Mouse_list = new List<Mouse>();
 
         public FiltrForm()
         {
@@ -48,18 +52,18 @@ namespace AutoSalonn
             int x = 10;
             int y = 10;
 
-            for (int i = 0; i < cars_list.Count; i++)
+            for (int i = 0; i < Mouse_list.Count; i++)
             {
-                cars_list[i].btn.Font = new Font("Microsoft Sans Serif", 12F);
-                cars_list[i].btn.Location = new Point(x, y);
-                cars_list[i].btn.Size = new Size(200, 30);
-                cars_list[i].btn.Click += new EventHandler(carClick);
-                CarsPanel.Controls.Add(cars_list[i].btn);
+                Mouse_list[i].btn.Font = new Font("Microsoft Sans Serif", 12F);
+                Mouse_list[i].btn.Location = new Point(x, y);
+                Mouse_list[i].btn.Size = new Size(200, 30);
+                Mouse_list[i].btn.Click += new EventHandler(carClick);
+                CarsPanel.Controls.Add(Mouse_list[i].btn);
 
-                cars_list[i].pb.Location = new Point(x, y);
-                cars_list[i].pb.Size = new Size(200, 200);
-                cars_list[i].pb.SizeMode = PictureBoxSizeMode.Zoom;
-                CarsPanel.Controls.Add(cars_list[i].pb);
+                Mouse_list[i].pb.Location = new Point(x, y);
+                Mouse_list[i].pb.Size = new Size(200, 200);
+                Mouse_list[i].pb.SizeMode = PictureBoxSizeMode.Zoom;
+                CarsPanel.Controls.Add(Mouse_list[i].pb);
 
                 x += 210;
                 if (x + 200 > CarsPanel.Width)
@@ -79,40 +83,40 @@ namespace AutoSalonn
         {
             int x = 10;
             int y = 10;
-            for (int i = 0; i < cars_list.Count; i++)
+            for (int i = 0; i < Mouse_list.Count; i++)
             {
-                cars_list[i].btn.Visible = true;
-                cars_list[i].pb.Visible = true;
+                Mouse_list[i].btn.Visible = true;
+                Mouse_list[i].pb.Visible = true;
 
                 if (KuzovCheckedListBox.CheckedItems.Count > 0 &&
-                    !KuzovCheckedListBox.CheckedItems.Contains(cars_list[i].kuzov))
+                    !KuzovCheckedListBox.CheckedItems.Contains(Mouse_list[i].ves))
                 {
-                    cars_list[i].btn.Visible = false;
-                    cars_list[i].pb.Visible = false;
+                    Mouse_list[i].btn.Visible = false;
+                    Mouse_list[i].pb.Visible = false;
                 }
                 if (NameTextBox.Text != "" &&
-                    !cars_list[i].name.Contains(NameTextBox.Text))
+                    !Mouse_list[i].name.Contains(NameTextBox.Text))
                 {
-                    cars_list[i].btn.Visible = false;
-                    cars_list[i].pb.Visible = false;
+                    Mouse_list[i].btn.Visible = false;
+                    Mouse_list[i].pb.Visible = false;
                 }
                 if (kppComboBox.Text != "" &&
-                    kppComboBox.Text != cars_list[i].kpp)
+                    kppComboBox.Text != Mouse_list[i].sens)
                 {
-                    cars_list[i].btn.Visible = false;
-                    cars_list[i].pb.Visible = false;
+                    Mouse_list[i].btn.Visible = false;
+                    Mouse_list[i].pb.Visible = false;
                 }
                 if (priceTextBox.Text != "" &&
-                    Convert.ToInt32(priceTextBox.Text) < cars_list[i].price)
+                    Convert.ToInt32(priceTextBox.Text) < Mouse_list[i].price)
                 {
-                    cars_list[i].btn.Visible = false;
-                    cars_list[i].pb.Visible = false;
+                    Mouse_list[i].btn.Visible = false;
+                    Mouse_list[i].pb.Visible = false;
                 }
 
-                if (cars_list[i].btn.Visible)
+                if (Mouse_list[i].btn.Visible)
                 {
-                    cars_list[i].btn.Location = new Point(x, y);
-                    cars_list[i].pb.Location = new Point(x, y);
+                    Mouse_list[i].btn.Location = new Point(x, y);
+                    Mouse_list[i].pb.Location = new Point(x, y);
 
                     x += 210;
                     if (x + 200 > CarsPanel.Width)
@@ -126,12 +130,12 @@ namespace AutoSalonn
 
         public static void carClick(object sender, EventArgs e)
         {
-            for (int i = 0; i < cars_list.Count; i++)
+            for (int i = 0; i < Mouse_list.Count; i++)
             {
-                if (((Button)sender).Text == cars_list[i].btn.Text)
+                if (((Button)sender).Text == Mouse_list[i].btn.Text)
                 {
-                    CarForm car = new CarForm(cars_list[i]);
-                    car.ShowDialog();
+                    MouseForm mouse = new MouseForm(Mouse_list[i]);
+                    mouse.ShowDialog();
                 }
             }
         }

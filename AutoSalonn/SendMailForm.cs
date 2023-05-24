@@ -49,12 +49,12 @@ namespace AutoSalonn
 
 
                     File.AppendAllText("Избранное.csv", "Название,Количество,Цена");
-                    foreach (KeyValuePair<Car, int> myCar in SelectedForm.MyCars)
+                    foreach (KeyValuePair<Mouse, int> myMouse in SelectedForm.MyMouses)
                     {
-                        Car car = myCar.Key;
+                            Mouse mouse = myMouse.Key;
                         File.AppendAllText("Избранное.csv",
                             Environment.NewLine +
-                            car.name + "," + myCar.Value + "," + car.price);
+                            mouse.name + "," + myMouse.Value + "," + mouse.price);
                     }
 
                     mailMessage.Attachments.Add(new Attachment("Избранное.csv"));
@@ -73,6 +73,9 @@ namespace AutoSalonn
             }
         }
 
-        
+        private void SendMailForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -46,6 +46,10 @@ namespace AutoSalonn
             }
             MessageBox.Show("Введен неверный логин/пароль");
         }
-        
+
+        private void AuthForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

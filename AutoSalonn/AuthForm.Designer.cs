@@ -101,6 +101,7 @@
             this.Controls.Add(this.label1);
             this.Name = "AuthForm";
             this.Text = "AuthForm";
+            this.Load += new System.EventHandler(this.AuthForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

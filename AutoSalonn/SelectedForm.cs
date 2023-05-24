@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 
 namespace AutoSalonn
 {
     public partial class SelectedForm : Form
     {
-        public static Dictionary<Car, int> MyCars = new Dictionary<Car, int>();
+        public static Dictionary<Mouse, int> MyMouses = new Dictionary<Mouse, int>();
 
         public SelectedForm()
         {
@@ -26,19 +27,19 @@ namespace AutoSalonn
             int x = 10;
             int y = 10;
 
-            foreach (KeyValuePair<Car, int> myCar in MyCars)
+            foreach (KeyValuePair<Mouse, int> myMouse in MyMouses)
             {
-                Car car = myCar.Key;
+                Mouse mouse = myMouse.Key;
                 #region
                 PictureBox pb = new PictureBox();
-                pb.Image = car.pb.Image;
+                pb.Image = mouse.pb.Image;
                 pb.Location = new Point(x, y + AutoScrollPosition.Y);
                 pb.Size = new Size(200, 200);
                 pb.SizeMode = PictureBoxSizeMode.Zoom;
                 Controls.Add(pb);
 
                 Label lbl_name = new Label();
-                lbl_name.Text = "Модель: " + car.name;
+                lbl_name.Text = "Модель: " + mouse.name;
                 lbl_name.Font = new Font("Microsoft Sans Serif", 12F);
                 lbl_name.Location = new Point(x + 220, y + AutoScrollPosition.Y);
                 lbl_name.Size = new Size(200, 30);
@@ -47,7 +48,7 @@ namespace AutoSalonn
 
                 #region
                 Button btn = new Button();
-                btn.Text = car.btn.Text;
+                btn.Text = mouse.btn.Text;
                 btn.Font = new Font("Microsoft Sans Serif", 12F);
                 btn.Location = new Point(x + 440, y + 100 + AutoScrollPosition.Y);
                 btn.Size = new Size(200, 30);
@@ -73,8 +74,8 @@ namespace AutoSalonn
         {
             int i = 0;
             Button btn = (Button)sender;
-            Dictionary<Car, int> MyCars1 = new Dictionary<Car, int>();
-                foreach (KeyValuePair<Car, int> myCar in MyCars)
+            Dictionary<Mouse, int> MyMouses1 = new Dictionary<Mouse, int>();
+                foreach (KeyValuePair<Mouse, int> myMouse in MyMouses)
                 {
                     if(btn.Location == new Point(670, 210*i + 10 + AutoScrollPosition.Y))
                     {
@@ -82,11 +83,11 @@ namespace AutoSalonn
                     }
                     else
                     {
-                    MyCars1[myCar.Key] = myCar.Value;
+                    MyMouses1[myMouse.Key] = myMouse.Value;
                     }
                     i++;
                 }
-            MyCars = MyCars1;
+            MyMouses = MyMouses1;
             ReDraw();
         }
 

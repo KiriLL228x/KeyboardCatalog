@@ -52,10 +52,7 @@ E:\хранение\Projecr_AutoSalon-main\AutoSalonn\bin\Debug\AutoSalonn.exe
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\bin\Debug\AutoSalonn.pdb
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.AssemblyReference.cache
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.SuggestedBindingRedirects.cache
-E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.AddCarForm.resources
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.AuthForm.resources
-E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.CarForm.resources
-E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.DelCarForm.resources
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.FeedBackForm.resources
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.FiltrForm.resources
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.HelpForm.resources
@@ -68,3 +65,6 @@ E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.cspro
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.CoreCompileInputs.cache
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.exe
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.pdb
+E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.AddMouseForm.resources
+E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.MouseForm.resources
+E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.DelMouseForm.resources

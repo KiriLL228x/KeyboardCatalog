@@ -68,6 +68,7 @@
             this.Controls.Add(this.AdressTextBox);
             this.Name = "SendMailForm";
             this.Text = "SendMailForm";
+            this.Load += new System.EventHandler(this.SendMailForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

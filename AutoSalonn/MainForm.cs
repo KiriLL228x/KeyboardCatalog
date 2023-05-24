@@ -43,14 +43,14 @@ namespace AutoSalonn
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            FiltrForm.cars_list.Clear();
-            string[] strs = File.ReadAllLines("cars.txt");
+            FiltrForm.Mouse_list.Clear();
+            string[] strs = File.ReadAllLines("mouse.txt");
 
             foreach (string str in strs)
             {
                 string[] parts = str.Split(new string[] { ", " }, StringSplitOptions.None);
-                Car car = new Car(parts[0], parts[1], parts[2], Convert.ToInt32(parts[3]));
-                FiltrForm.cars_list.Add(car);
+                Mouse mouse = new Mouse(parts[0], parts[1], parts[2], parts[3], parts[4], Convert.ToInt32(parts[3]));
+                FiltrForm.Mouse_list.Add(mouse);
             }
         }
 
@@ -58,8 +58,8 @@ namespace AutoSalonn
         {
             if (AuthForm.isAdmin)
             {
-                AddCarForm addCar = new AddCarForm();
-                addCar.ShowDialog();
+                AddMouseForm addMouse = new AddMouseForm();
+                addMouse.ShowDialog();
             }
             else
             {
@@ -73,8 +73,8 @@ namespace AutoSalonn
         {
             if (AuthForm.isAdmin)
             {
-                DelCarForm delCar = new DelCarForm();
-                delCar.ShowDialog();
+                DelMouseForm delMouse = new DelMouseForm();
+                delMouse.ShowDialog();
             }
             else
             {

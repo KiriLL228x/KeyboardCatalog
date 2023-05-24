@@ -142,7 +142,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackgroundImage = global::AutoSalonn.Properties.Resources.W8tnZ2g;
+ 
             this.ClientSize = new System.Drawing.Size(861, 609);
             this.ContextMenuStrip = this.AddcontextMenu;
             this.Controls.Add(this.feedbackbtn);

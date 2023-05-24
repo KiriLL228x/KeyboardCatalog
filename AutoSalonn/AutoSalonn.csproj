@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCarForm.cs">
+    <Compile Include="AddMouseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddCarForm.Designer.cs">
-      <DependentUpon>AddCarForm.cs</DependentUpon>
+    <Compile Include="AddMouseForm.Designer.cs">
+      <DependentUpon>AddMouseForm.cs</DependentUpon>
     </Compile>
     <Compile Include="AuthForm.cs">
       <SubType>Form</SubType>
@@ -58,17 +58,17 @@
     <Compile Include="AuthForm.Designer.cs">
       <DependentUpon>AuthForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CarForm.cs">
+    <Compile Include="MouseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CarForm.Designer.cs">
-      <DependentUpon>CarForm.cs</DependentUpon>
+    <Compile Include="MouseForm.Designer.cs">
+      <DependentUpon>MouseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DelCarForm.cs">
+    <Compile Include="DelMouseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DelCarForm.Designer.cs">
-      <DependentUpon>DelCarForm.cs</DependentUpon>
+    <Compile Include="DelMouseForm.Designer.cs">
+      <DependentUpon>DelMouseForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FeedBackForm.cs">
       <SubType>Form</SubType>
@@ -114,17 +114,17 @@
     <Compile Include="SendMailForm.Designer.cs">
       <DependentUpon>SendMailForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddCarForm.resx">
-      <DependentUpon>AddCarForm.cs</DependentUpon>
+    <EmbeddedResource Include="AddMouseForm.resx">
+      <DependentUpon>AddMouseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AuthForm.resx">
       <DependentUpon>AuthForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CarForm.resx">
-      <DependentUpon>CarForm.cs</DependentUpon>
+    <EmbeddedResource Include="MouseForm.resx">
+      <DependentUpon>MouseForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DelCarForm.resx">
-      <DependentUpon>DelCarForm.cs</DependentUpon>
+    <EmbeddedResource Include="DelMouseForm.resx">
+      <DependentUpon>DelMouseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FeedBackForm.resx">
       <DependentUpon>FeedBackForm.cs</DependentUpon>
