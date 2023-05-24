@@ -31,7 +31,6 @@
             this.FiltrPanel = new System.Windows.Forms.Panel();
             this.HideButton = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.KuzovCheckedListBox = new System.Windows.Forms.CheckedListBox();
             this.FindButton = new System.Windows.Forms.Button();
             this.NameTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,7 +46,6 @@
             // 
             this.FiltrPanel.Controls.Add(this.HideButton);
             this.FiltrPanel.Controls.Add(this.label4);
-            this.FiltrPanel.Controls.Add(this.KuzovCheckedListBox);
             this.FiltrPanel.Controls.Add(this.FindButton);
             this.FiltrPanel.Controls.Add(this.NameTextBox);
             this.FiltrPanel.Controls.Add(this.label1);
@@ -82,22 +80,6 @@
             this.label4.Size = new System.Drawing.Size(83, 20);
             this.label4.TabIndex = 26;
             this.label4.Text = "Название";
-            // 
-            // KuzovCheckedListBox
-            // 
-            this.KuzovCheckedListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.KuzovCheckedListBox.FormattingEnabled = true;
-            this.KuzovCheckedListBox.Items.AddRange(new object[] {
-            "Седан",
-            "Хечбек",
-            "Купе",
-            "Кабриолет",
-            "Универсал"});
-            this.KuzovCheckedListBox.Location = new System.Drawing.Point(380, 41);
-            this.KuzovCheckedListBox.Margin = new System.Windows.Forms.Padding(2);
-            this.KuzovCheckedListBox.Name = "KuzovCheckedListBox";
-            this.KuzovCheckedListBox.Size = new System.Drawing.Size(152, 88);
-            this.KuzovCheckedListBox.TabIndex = 28;
             // 
             // FindButton
             // 
@@ -206,7 +188,6 @@
         private System.Windows.Forms.Panel FiltrPanel;
         private System.Windows.Forms.Button HideButton;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckedListBox KuzovCheckedListBox;
         private System.Windows.Forms.Button FindButton;
         private System.Windows.Forms.TextBox NameTextBox;
         private System.Windows.Forms.Label label1;

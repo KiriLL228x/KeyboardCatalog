@@ -88,24 +88,7 @@ namespace AutoSalonn
                 Mouse_list[i].btn.Visible = true;
                 Mouse_list[i].pb.Visible = true;
 
-                if (KuzovCheckedListBox.CheckedItems.Count > 0 &&
-                    !KuzovCheckedListBox.CheckedItems.Contains(Mouse_list[i].ves))
-                {
-                    Mouse_list[i].btn.Visible = false;
-                    Mouse_list[i].pb.Visible = false;
-                }
-                if (NameTextBox.Text != "" &&
-                    !Mouse_list[i].name.Contains(NameTextBox.Text))
-                {
-                    Mouse_list[i].btn.Visible = false;
-                    Mouse_list[i].pb.Visible = false;
-                }
-                if (kppComboBox.Text != "" &&
-                    kppComboBox.Text != Mouse_list[i].sens)
-                {
-                    Mouse_list[i].btn.Visible = false;
-                    Mouse_list[i].pb.Visible = false;
-                }
+                
                 if (priceTextBox.Text != "" &&
                     Convert.ToInt32(priceTextBox.Text) < Mouse_list[i].price)
                 {

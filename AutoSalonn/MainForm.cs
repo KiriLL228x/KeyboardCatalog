@@ -49,7 +49,7 @@ namespace AutoSalonn
             foreach (string str in strs)
             {
                 string[] parts = str.Split(new string[] { ", " }, StringSplitOptions.None);
-                Mouse mouse = new Mouse(parts[0], parts[1], parts[2], parts[3], parts[4], Convert.ToInt32(parts[3]));
+                Mouse mouse = new Mouse(parts[0], parts[1], parts[2], parts[3], parts[4], Convert.ToInt32(parts[5]));
                 FiltrForm.Mouse_list.Add(mouse);
             }
         }

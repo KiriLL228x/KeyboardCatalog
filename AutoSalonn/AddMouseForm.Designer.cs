@@ -39,13 +39,13 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.label1 = new System.Windows.Forms.Label();
-            this.InfoTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.VesCB = new System.Windows.Forms.TextBox();
             this.SensCB = new System.Windows.Forms.TextBox();
             this.Gcb = new System.Windows.Forms.TextBox();
             this.FormCB = new System.Windows.Forms.TextBox();
+            this.InfoTextBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,7 +101,7 @@
             // 
             // SaveBtn
             // 
-            this.SaveBtn.Location = new System.Drawing.Point(12, 403);
+            this.SaveBtn.Location = new System.Drawing.Point(12, 390);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(414, 23);
             this.SaveBtn.TabIndex = 8;
@@ -139,15 +139,6 @@
             this.label1.Size = new System.Drawing.Size(108, 13);
             this.label1.TabIndex = 13;
             this.label1.Text = "Добавить описание";
-            // 
-            // InfoTextBox
-            // 
-            this.InfoTextBox.Location = new System.Drawing.Point(148, 303);
-            this.InfoTextBox.Multiline = true;
-            this.InfoTextBox.Name = "InfoTextBox";
-            this.InfoTextBox.ShortcutsEnabled = false;
-            this.InfoTextBox.Size = new System.Drawing.Size(269, 81);
-            this.InfoTextBox.TabIndex = 14;
             // 
             // label2
             // 
@@ -195,18 +186,25 @@
             this.FormCB.Size = new System.Drawing.Size(201, 20);
             this.FormCB.TabIndex = 22;
             // 
+            // InfoTextBox
+            // 
+            this.InfoTextBox.Location = new System.Drawing.Point(148, 313);
+            this.InfoTextBox.Name = "InfoTextBox";
+            this.InfoTextBox.Size = new System.Drawing.Size(201, 20);
+            this.InfoTextBox.TabIndex = 23;
+            // 
             // AddMouseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 450);
+            this.ClientSize = new System.Drawing.Size(443, 426);
+            this.Controls.Add(this.InfoTextBox);
             this.Controls.Add(this.FormCB);
             this.Controls.Add(this.Gcb);
             this.Controls.Add(this.SensCB);
             this.Controls.Add(this.VesCB);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.InfoTextBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
@@ -239,12 +237,12 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label label1;
-        internal System.Windows.Forms.TextBox InfoTextBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox VesCB;
         private System.Windows.Forms.TextBox SensCB;
         private System.Windows.Forms.TextBox Gcb;
         private System.Windows.Forms.TextBox FormCB;
+        private System.Windows.Forms.TextBox InfoTextBox;
     }
 }

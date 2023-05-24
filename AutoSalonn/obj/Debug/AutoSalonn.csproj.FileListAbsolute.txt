@@ -68,3 +68,24 @@ E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.pdb
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.AddMouseForm.resources
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.MouseForm.resources
 E:\хранение\Projecr_AutoSalon-main\AutoSalonn\obj\Debug\AutoSalonn.DelMouseForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\bin\Debug\AutoSalonn.exe.config
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\bin\Debug\AutoSalonn.exe
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\bin\Debug\AutoSalonn.pdb
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.AssemblyReference.cache
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.SuggestedBindingRedirects.cache
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.AddMouseForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.AuthForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.MouseForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.DelMouseForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.FeedBackForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.FiltrForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.HelpForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.MainForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.Properties.Resources.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.RegForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.SelectedForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.SendMailForm.resources
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.GenerateResource.cache
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.csproj.CoreCompileInputs.cache
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.exe
+D:\Корнилов Кирилл\KeyboardCatalog-main\AutoSalonn\obj\Debug\AutoSalonn.pdb

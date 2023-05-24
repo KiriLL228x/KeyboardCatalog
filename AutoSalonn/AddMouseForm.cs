@@ -29,7 +29,7 @@ namespace AutoSalonn
 
             if (NameTB.Text == "" || VesCB.Text == "" || SensCB.Text == "" || Gcb.Text == "" || FormCB.Text == "")
             {
-                MessageBox.Show("Название обезательно для ввода");
+                MessageBox.Show("Название обязательно для ввода");
                 return;
             }
 
@@ -45,7 +45,7 @@ namespace AutoSalonn
 
             if (FileNme != "")
             {
-                File.Copy(FileNme, "../../Pictures/" + NameTB + ".jpg");
+                File.Copy(FileNme, "../../Pictures/" + NameTB.Text + ".jpg");
             }
 
             File.AppendAllText("../../Pictures/" + NameTB.Text + ".txt", InfoTextBox.Text);
